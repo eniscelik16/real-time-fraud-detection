@@ -218,3 +218,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Veri setleri ve yerel modeller (GitHub'a atılmaz!)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.csv
+*.parquet
+*.pkl
+*.joblib
+mlruns/
+mlartifacts/
+
+# Ortam değişkenleri
+.env
